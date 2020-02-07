@@ -33,6 +33,6 @@ find . -name track_weights.txt
 # looping over subjects
 for n in hcp/* ; do
 
-  sbatch TCKGEN_script_HSM_8.sh ${n}
+  sbatch subject_tractography.sh ${n}
 
 done
