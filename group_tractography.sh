@@ -33,6 +33,7 @@ find . -name track_weights.txt
 # looping over subjects
 for n in hcp/* ; do
 
+  # subit job through SLURM
   sbatch subject_tractography.sh ${n}
 
 done
