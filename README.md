@@ -1,4 +1,4 @@
-# HCP-dMRI-connetome
+# HCP-dMRI-connectome
 MRtrix scripts to generate dense weighted structural connectomes from the Human Connectome Project "minimally pre-processed" diffusion MRI data
 
 group_preprocess - unpack and pre-process the already "minimally preprocessed" diffusion MRI datasets of the HCP. Intended to be run on a workstation.
